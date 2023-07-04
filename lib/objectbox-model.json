@@ -1,0 +1,82 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5553712570427174702",
+      "lastPropertyId": "5:2805585802523121289",
+      "name": "NoteDto",
+      "properties": [
+        {
+          "id": "1:6065927985713450609",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:116182608652044627",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:5628204122418295755",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "4:1574870769672364000",
+          "name": "colorValue",
+          "type": 6
+        },
+        {
+          "id": "5:2805585802523121289",
+          "name": "dateTime",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:777071593035702795",
+          "name": "todoList",
+          "targetId": "2:7518756833676447369"
+        }
+      ]
+    },
+    {
+      "id": "2:7518756833676447369",
+      "lastPropertyId": "3:6932048185317386447",
+      "name": "TodoDto",
+      "properties": [
+        {
+          "id": "1:4234494403132190245",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6606208358211091997",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:6932048185317386447",
+          "name": "completed",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:7518756833676447369",
+  "lastIndexId": "0:0",
+  "lastRelationId": "1:777071593035702795",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
